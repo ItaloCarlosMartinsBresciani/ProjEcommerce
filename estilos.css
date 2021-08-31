@@ -46,6 +46,10 @@ h2{
   background-image: url("imagem/fundo3.png");
   float: left;
   text-align:center;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+
 }
 
 #texto_imagem2{
@@ -54,6 +58,9 @@ h2{
   background-color: white;
   background-image: url("imagem/fundo3.png");
   float: left;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
 }
 
 #camada_especial{
@@ -78,6 +85,10 @@ h2{
   background-color: white;
   background-image: url("imagem/fundo3.png");
   float: left;
+  object-fit: cover;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
 }
 
 #camada3 {
@@ -121,16 +132,19 @@ a.dois:link,a.dois:visited{
   color: black;
   text-decoration:none;
   background-color: white;
+  background-image: url("imagem/fundo3.png");
 }
 a.dois:hover{
   color: #59a9f7;
   text-decoration: underline;
   background-color: white;
+  background-image: url("imagem/fundo3.png");
 }
 a.dois:active{
   color: white;
   text-decoration: none;
   background-color: #59a9f7;
+  background-image: url("imagem/fundo3.png");
 }
 a.tres:link,a.tres:visited{
   color: black;
