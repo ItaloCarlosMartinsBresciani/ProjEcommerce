@@ -22,6 +22,12 @@
   background-image: url("imagem/fundo3.png");
   height: 140px;
 }
+#titulo{
+  background-color: rgb(255, 255, 255);
+  background-image: url("imagem/fundo3.png");
+  width: 1150px;
+}
+
 h2{
   background-color: rgb(255, 255, 255);
   background-image: url("imagem/fundo3.png");
