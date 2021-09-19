@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    transition: 200ms;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(230, 230, 230);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(238, 238, 238);
+    padding: 0 3em;
+    height: 70px;
+    z-index: 999;
+    box-shadow: 0 0 10px rgb(77, 77, 77);
+}
+
+header .left {
+    font-size: 1.8em;
+    color: rgb(224, 24, 64); 
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(63, 63, 63);
+}
+
+.clear {
+    height: 70px;
+    width: 100%;
+}
+
+.btn {
+    font-size: 1.4em;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.btn:hover {
+    color: rgb(224, 24, 64); 
+    transition: 200ms;
+    cursor: pointer;
+}
+
+/* Menu */
+header #user {
+    font-size: 45px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    width: 100vw;
+    color: white;
+    background: rgb(92, 92, 92);
+    box-shadow: 0 0 10px rgb(77, 77, 77);
+}
+
+footer a,
+footer .btn {
+    color: white;
+}
+
+footer .left, 
+footer .right {
+    width: 40%;
+}
+
+noscript {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+    opacity: .8;
+    padding: 1em;
+}
+
+footer .right {
+    text-align: right;
+    font-size: 1.2em;
+}
+
+footer .logo {
+    text-align: center;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 560px) {
+    header {
+        padding: 0 1em;
+    }
+
+    header .left {
+        font-size: 1.4em;
+    }
+
+    footer {
+        padding: 1em;
+    }
+
+    footer .logo {
+        font-size: 1.5em;
+    }
+
+    footer .right {
+        font-size: 1em;
+    }
+
+    noscript {
+        font-size: .8em;
+    }
+}
