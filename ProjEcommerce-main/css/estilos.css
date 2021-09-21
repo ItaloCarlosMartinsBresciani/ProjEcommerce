@@ -1,0 +1,272 @@
+*{
+  
+  font-family: 'Montserrat', sans-serif;
+ 
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../imagem/fundo.png");
+    background-size: cover;  /* Faz com que a imagem cubra todo o fundo da página, independente de sua proporção */
+}
+#mae{
+  width: 1500px;
+  height: 1320px;
+  background-color:white;
+  background-image: url("../imagem/fundo2.png");
+  font-family: verdana;
+}
+#camada1{
+  width: 1150px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+  height: 140px;
+}
+h2{
+  background-color: rgb(255, 255, 255);
+  background-image: url("../imagem/fundo3.png");
+}
+#user{
+  width: 150px;
+  height: 120px;
+  float: left;
+  margin-left: 15px;
+}
+
+#camada_especial2{
+  width: 1150px;
+  height: 260px;
+  background-color: #59a9f7;
+}
+
+#texto_imagem1 {
+  width: 400px;
+  height: 240px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  text-align:center;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+
+}
+
+#texto_imagem2{
+  width: 730px;
+  height: 240px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+}
+
+#camada_especial{
+  width: 1150px;
+  height: 460px;
+  background-color: #59a9f7;;
+}
+
+#interna1{
+  width: 370px;
+  background-color: white;
+}
+
+#interna2{
+  width: 370px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+}
+
+#text_imag{
+  width: 376px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  object-fit: cover;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+}
+
+#camada3 {
+  width: 1140px;
+  background-color:white;
+  height: 90px;
+  font-size: 14px;
+  background-image: url("../imagem/fundo3.png");
+}
+
+h2{
+  font-size: 24px;
+  font-style: italic;
+  background-color: white;
+  margin-left: 15px;
+}
+
+a{
+  font-size: 18px;
+  font-weight: bold;
+}
+a.um:link,a.um:visited{
+  background-color: #59a9f7;
+  color: white;
+  border: 2px solid black;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+a.um:hover{
+  background-color: rgb(90, 90, 212);
+  color: white;
+  text-decoration: underline;
+}
+a.um:active{
+  background-color: #557aed;
+  color: white;
+  text-decoration: none;
+}
+a.dois:link,a.dois:visited{
+  color: black;
+  text-decoration:none;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+}
+a.dois:hover{
+  color: #59a9f7;
+  text-decoration: underline;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+}
+a.dois:active{
+  color: white;
+  text-decoration: none;
+  background-color: #59a9f7;
+  background-image: url("../imagem/fundo3.png");
+}
+a.tres:link,a.tres:visited{
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+}
+a.tres:hover{  
+  color: black;
+  text-decoration: underline;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+}
+a.tres:active{
+  color: white;
+  text-decoration: none;
+  background-image: url("../imagem/fundo3.png");
+}
+
+body{background-color: white;}
+a.quatro:link, a.quatro:visited, a.quatro:active{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    background-image: url("../imagem/fundo3.png");
+}
+a.quatro:hover{
+    color: white;
+    text-decoration: none;
+    background-color:#59a9f7;
+    
+}
+
+#camada_especial3{
+  width: 1150px;
+  height: 500px;
+  background-color: #59a9f7;
+}
+
+
+#texto_produto1 {
+  width: 170px;
+  height: 140px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  text-align:center;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+
+}
+
+#texto_produto2{
+  width: 365px;
+  height: 140px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+}
+
+#devs1 {
+  width: 185px;
+  height: 155px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  text-align:center;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+  margin-left: 5px;
+
+}
+
+#devs2{
+  width: 390px;
+  height: 155px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+}
+
+#camada_especial4{
+  width: 590px;
+  height: 910px;
+  background-color: #59a9f7;
+  border-radius: 8px;
+}
+
+
+
+section{
+  background: white;
+  background-image: url("../imagem/fundo4.jpg");
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(43, 42, 42);
+}
+
+footer{
+  text-align: center;
+  color:white;
+  font-style: italic;
+  border-radius: 10px;
+  padding: 15px;
+    
+  margin: left 5px;;
+}
+
+#login{
+ 
+    border-radius: 10px;
+    padding: 15px;
+    
+    margin: left 5px;;
+}
