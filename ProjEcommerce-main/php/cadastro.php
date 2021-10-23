@@ -5,7 +5,7 @@
     $login = $_POST['login'];
     $senha = md5($_POST['senha']);
 
-    $sql="SELECT senha, adm, idusuario FROM usuario WHERE excluido = 'false' and email = '$login';";
+    $sql="SELECT senha, adm, idusuario FROM usuarios WHERE excluido = 'false' and email = '$login';";
     
 
     $resultado=pg_query($conecta,$sql);

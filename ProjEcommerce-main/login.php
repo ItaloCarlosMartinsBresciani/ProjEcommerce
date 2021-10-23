@@ -43,13 +43,13 @@
         include "php/conexao.php";
         
         
-        $sql="SELECT * FROM usuario WHERE excluido ='false' and idusuario = ".$_SESSION['idusuario'].";";
+        $sql="SELECT * FROM usuarios WHERE excluido ='false' and idusuario = ".$_SESSION['idusuario'].";";
         $resultado= pg_query($conecta, $sql);
         $qtde=pg_num_rows($resultado);
         $linha=pg_fetch_array($resultado);
 
         echo " 
-        <link rel='stylesheet' type='text/css' href='css/estilos.css' />
+        <link rel='stylesheet' type='text/css' href='css/style.css' />
         <center>
         <div id='mae2'>
     

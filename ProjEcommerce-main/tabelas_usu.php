@@ -42,7 +42,7 @@
 
             
             
-            $sql="SELECT * FROM usuario WHERE excluido ='false' ORDER BY idusuario";
+            $sql="SELECT * FROM usuarios WHERE excluido ='false' ORDER BY idusuario";
             $resultado= pg_query($conecta, $sql);
             $qtde=pg_num_rows($resultado);
 

@@ -6,7 +6,7 @@
     $idusuario = $_POST['idusuario'];
     $data=date('d/m/Y'); 
 
-    $sql="UPDATE usuario set excluido = 'true' WHERE idusuario = $idusuario";
+    $sql="UPDATE usuarios set excluido = 'true' WHERE idusuario = $idusuario";
     
 
     $resultado=pg_query($conecta,$sql);

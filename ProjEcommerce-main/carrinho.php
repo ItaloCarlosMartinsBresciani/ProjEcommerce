@@ -61,7 +61,7 @@
   <meta charset="UTF-8">
   <link rel="icon" href="imagem/icon.png">
   <title>Desenvolvedores</title>
-  <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <script src="https://kit.fontawesome.com/8545ffdfda.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

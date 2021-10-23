@@ -17,7 +17,7 @@
         include "conexao.php";
         //dados enviados do script altera_prod.php
         $idusuario = $_GET["idusuario"];
-        $sql="SELECT * FROM usuario WHERE idusuario = $idusuario;";
+        $sql="SELECT * FROM usuarios WHERE idusuario = $idusuario;";
         $resultado=pg_query($conecta,$sql);
         $qtde=pg_num_rows($resultado);
         if ( $qtde == 0 ){
@@ -29,7 +29,7 @@
     
     <div id="login-container">
     <header>
-        <h1>Exclusão de usuario <i class="fas fa-user-slash"></i></h1><br>
+        <h1>Exclusão de usuário <i class="fas fa-user-slash"></i></h1><br>
 
     </header>   
     <form action="exclusao.php" method="post">

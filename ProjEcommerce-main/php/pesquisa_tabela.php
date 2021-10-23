@@ -34,13 +34,13 @@
     switch ($opcao)
             {
                 case 1: $x="%$pesquisa%"; 
-                $sql="select * from usuario
+                $sql="select * from usuarios
                 where lower(nome) like '$x' and excluido != 'true'
                 order by nome";
                 break; 
 
                 case 2: $cod="$pesquisa"; 
-                $sql="select * from usuario where cpf = '$cod' 
+                $sql="select * from usuarios where cpf = '$cod' 
                 and excluido != 'true' order by cpf";
                 break; 
 

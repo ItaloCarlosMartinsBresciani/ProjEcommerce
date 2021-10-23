@@ -19,7 +19,7 @@
         include "conexao.php";
         //dados enviados do script altera_prod.php
         $idusuario = $_GET["idusuario"];
-        $sql="SELECT * FROM usuario WHERE idusuario = $idusuario;";
+        $sql="SELECT * FROM usuarios WHERE idusuario = $idusuario;";
         $resultado=pg_query($conecta,$sql);
         $qtde=pg_num_rows($resultado);
         if ( $qtde == 0 ){
@@ -31,7 +31,7 @@
     
     <div id="login-container">
     <header>
-        <h1>Alteração de usuario <i class="fas fa-user-edit"></i></h1><br>
+        <h1>Alteração de usuário <i class="fas fa-user-edit"></i></h1><br>
 
     </header>   
     <form action="grava_alteracao_usu.php" method="post">

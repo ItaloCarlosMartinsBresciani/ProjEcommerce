@@ -10,7 +10,7 @@
     $senha = md5($_POST['password']);
     
     
-    $sql = "SELECT email, nome FROM usuario WHERE email = '$email';";
+    $sql = "SELECT email, nome FROM usuarios WHERE email = '$email';";
     
     $result = pg_query($conecta, $sql);
     $row = pg_num_rows($result);
@@ -28,7 +28,7 @@
     else{
         
         $_SESSION['usuario_existe'] = false;
-        $sql = "INSERT INTO usuario (idusuario, nome, email, cpf, cep, telefone, senha) VALUES (DEFAULT, '$nome', '$email', '$cpf', '$cep', '$telefone', '$senha');";
+        $sql = "INSERT INTO usuarios (idusuario, nome, email, cpf, cep, telefone, senha) VALUES (DEFAULT, '$nome', '$email', '$cpf', '$cep', '$telefone', '$senha');";
         $resultado = pg_query($conecta, $sql);
         echo "<script>alert('Cadastrado com sucesso!');</script>";
         echo "<meta HTTP-EQUIV='refresh' CONTENT='0;URL=../login.php'>";
