@@ -1,7 +1,7 @@
 # ProjEcommerce
 
 Este repositório é para o grupo 4 do projeto e-commerce
-
+adm: adm.adm@gmail.com ; senha: adm
 
 21/10 - Laura - Alterações no design da pagina index
 
