@@ -467,3 +467,66 @@ footer{
     
     margin: left 5px;;
 }
+
+/* 
+#devs1 {
+  width: 185px;
+  height: 155px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  text-align:center;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+  margin-left: 5px;
+}
+#devs2{
+  width: 390px;
+  height: 155px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+}
+#camada_especial4{
+  width: 590px;
+  height: 910px;
+  background-color: #59a9f7;
+  border-radius: 8px;
+}
+*/
+
+
+#estat1 {
+  width: 360px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  text-align:center;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+  margin-left: 5px;
+}
+
+#estat2{
+  width: 760px;
+  height: 180px;
+  background-color: white;
+  background-image: url("../imagem/fundo3.png");
+  float: left;
+  margin: 3px 3px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 13px rgb(160, 160, 160);
+}
+
+#camada_especial5{
+  width: 1150px;
+  height: 970px;
+  background-color: #59a9f7;
+  border-radius: 8px;
+}
