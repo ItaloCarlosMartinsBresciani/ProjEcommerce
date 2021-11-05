@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="imagem/icon.png">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="css/form.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8545ffdfda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="login-container">
+    <h1><i class="fas fa-user-plus"></i> Cadastro</h1>
+    <form action="php/cadastrar.php" method="POST">
+      <label for="name">Nome *</label>
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required >
+      
+      <label for="email">E-mail *</label>
+      <input type="email" name="email" id="email" placeholder="Digite seu e-email" required >
+
+      <label for="CPF">CPF *</label>
+      <input type="text" name="CPF" id="CPF" placeholder="Digite seu CPF (apenas números)"  maxlength="11" minlength="11" required pattern="[0-9]+$">
+
+      <label for="CEP">CEP *</label>
+      <input type="text" name="CEP" id="CEP" maxlength="8" minlength="8" placeholder="Digite seu CEP (apenas números)" required pattern="[0-9]+$">
+
+      <label for="Telefone">Telefone *</label>
+      <input type="text" name="telefone" id="telefone" maxlength="11" minlength="10" placeholder="Digite seu Telefone (apenas números)" required pattern="[0-9]+$">
+
+      <label for="password">Senha *</label>
+      <input type="password" name="password" id="password" placeholder="Digite sua senha" required >
+
+      
+      <p>Já tem uma conta? <a href='login.php'>Faça Login</a></p>
+      
+      <input type="submit" value="Cadastrar">
+    </form>
+   
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

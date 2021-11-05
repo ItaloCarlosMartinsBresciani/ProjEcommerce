@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="imagem/icon.png">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="../css/form.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8545ffdfda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="login-container">
+    <h1><i class="fas fa-cash-register"></i> Cadastro de curso</h1>
+    <form action="cadastrar_prod.php" method="POST">
+      <label for="name">Nome do curso *</label>
+      <input type="text" name="nomecurso" id="nomecurso" placeholder="Digite o nome do curso" required >
+      
+      <label for="preco">Preço (R$) *</label>
+      <input type="text" name="preco" id="preco" placeholder="Digite o Preço" required pattern="[0-9]+([,\.][0-9]$" onchange="this.value = this.value.replace(/,/g, '.')" >
+
+      <label for="aulas">Aulas *</label>
+      <input type="text" name="aulas" id="aulas" placeholder="Digite a quantidade de aulas"  maxlength="11" required pattern="[0-9]+$">
+
+      <label for="genero">Gênero *</label>
+      <input type="text" name="genero" id="genero" maxlength="30" placeholder="Digite o gênero do curso" required>
+
+      <label for="criador">Criador *</label>
+      <input type="text" name="criador" id="criador" maxlength="40"  placeholder="Digite quem criou o curso" required>
+
+      <label for="img">Descrição *</label><br>
+      <textarea rows="9" cols="40" name="img" id="img" required style="margin-left: 0px; margin-right: 0px; width: 329px;"></textarea>
+      
+      <label for="imagem">Imagem *</label>
+      <input type="text" name="imagem" id="imagem" placeholder="Deixe o caminho da imagem" required>
+      
+      
+      
+      <input type="submit" value="Cadastrar">
+    </form>
+    <form action='../tabelas_prod.php' method='POST'>
+      <input type='submit' value='Voltar'>
+      </form>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
