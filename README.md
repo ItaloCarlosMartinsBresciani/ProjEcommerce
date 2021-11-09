@@ -1,5 +1,6 @@
 # ProjEcommerce
-https://prod.liveshare.vsengsaas.visualstudio.com/join?FFF044A1BA00934289DD840D75FA8BBE46A1
+https://prod.liveshare.vsengsaas.visualstudio.com/join?7B89CC4DD079390D58991AD0A7AD9D4F92E8
+
 
 Este repositório é para o grupo 4 do projeto e-commerce
 adm: adm.adm@gmail.com ; senha: adm
