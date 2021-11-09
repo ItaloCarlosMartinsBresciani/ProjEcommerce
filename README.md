@@ -13,3 +13,5 @@ link do site: http://www.projetosctibauru.com.br/w72AEquipe4/index.php
 25/10 - Italo - Alteração no design e lógica de algumas páginas
 
 28/10 - Laura - Criação da pagina "estatisticas" e adições no css
+
+08/11 - Laura - ALterações na pagina estatisticas e criação de "estatisticas_relatorios"
