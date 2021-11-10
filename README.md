@@ -1,5 +1,5 @@
 # ProjEcommerce
-https://prod.liveshare.vsengsaas.visualstudio.com/join?7B89CC4DD079390D58991AD0A7AD9D4F92E8
+https://prod.liveshare.vsengsaas.visualstudio.com/join?B5F7B1573FD33114885F086A32F3C04A6CE2
 
 
 Este repositório é para o grupo 4 do projeto e-commerce
